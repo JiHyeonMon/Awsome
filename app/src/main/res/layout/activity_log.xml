@@ -40,16 +40,55 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <Switch
+        android:id="@+id/btn_switch"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="70dp"
         android:splitTrack="?android:attr/windowOverscan"
+        android:checked="false"
         android:thumb="@drawable/switch_track_on"
-
         android:track="@drawable/switch_track_off"
-        android:trackTintMode="src_in"
+        android:showText="true"
+        android:textSize="30sp"
+        android:switchTextAppearance="@style/switch_style"
+        android:textOn="활동로그"
+        android:textOff="보안로그"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txt_securitylog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="12dp"
+        android:text="보안로그"
+        android:textSize="20dp"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="@+id/btn_switch"
+        app:layout_constraintTop_toTopOf="@+id/btn_switch" />
+
+    <TextView
+        android:id="@+id/txt_activelog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="40dp"
+        android:visibility="visible"
+        android:text="활동로그"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/btn_switch"
+        app:layout_constraintTop_toTopOf="@+id/btn_switch" />
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_switch" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
