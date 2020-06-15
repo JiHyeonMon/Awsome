@@ -20,11 +20,12 @@
             </intent-filter>
         </activity>
         <activity android:name=".InformationActivity" />
-        <activity android:name=".SecurityActivity" />
         <activity android:name=".activity_host.HostActivity" />
         <activity android:name=".ResetActivity" />
         <activity android:name=".LogActivity" />
+        <activity android:name=".ReviseActivity" />
         <activity android:name=".activity_admin.AdminActivity" />
+        <activity android:name=".SecurityActivity" />
         <activity android:name=".MainActivity"/>
     </application>
 
