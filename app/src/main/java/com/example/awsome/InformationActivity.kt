@@ -17,10 +17,15 @@ class InformationActivity : AppCompatActivity() {
         btn_editpw.setOnClickListener {
             val intent = Intent(this, ReviseActivity::class.java)
             startActivity(intent)
+            finish()
         }
 
         btn_back.setOnClickListener {
             finish()
+        }
+
+        if(intent.hasExtra("username")){
+            txt_User2.text = intent.getStringExtra("username")
         }
     }
 }

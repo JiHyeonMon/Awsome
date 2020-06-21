@@ -161,6 +161,7 @@
         android:layout_marginStart="97dp"
         android:layout_marginEnd="97dp"
         android:text="GildongiPhone"
+        android:gravity="center"
         android:textColor="@color/black"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
