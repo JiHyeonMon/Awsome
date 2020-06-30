@@ -29,28 +29,28 @@ class HostActivity : AppCompatActivity() {
         datas.apply {
             add(
                 HostData(
-                    txt_HostName = "길동",
+                    txt_HostName = "길동's Android",
                     txt_MAC = "ab:cd:ef:gh:if:aa",
                     txt_IP = "192.168.1.22"
                 )
             )
             add(
                 HostData(
-                    txt_HostName = "철수",
+                    txt_HostName = "철수's Iphone",
                     txt_MAC = "12:34:56:78:90:aa",
                     txt_IP = "192.168.0.2"
                 )
             )
             add(
                 HostData(
-                    txt_HostName = "영희",
+                    txt_HostName = "영희's Iphone",
                     txt_MAC = "12:34:56:78:90:aa",
                     txt_IP = "192.168.0.2"
                 )
             )
             add(
                 HostData(
-                    txt_HostName = "앵두",
+                    txt_HostName = "앵두's Android",
                     txt_MAC = "12:34:56:78:90:aa",
                     txt_IP = "192.168.0.2"
                 )

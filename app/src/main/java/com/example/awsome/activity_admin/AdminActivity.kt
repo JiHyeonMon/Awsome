@@ -34,23 +34,34 @@ class AdminActivity : AppCompatActivity() {
         datas.apply {
             add(
                 AdminData(
-                    txt_AdminUser = "길동",
+                    txt_AdminUser = "우리집 공주 길동",
                     txt_AdminRating = "최고관리자"
                 )
             )
             add(
                 AdminData(
-                    txt_AdminUser = "철수",
+                    txt_AdminUser = "길동이 아빠",
                     txt_AdminRating = "관리자"
                 )
             )
             add(
                 AdminData(
-                    txt_AdminUser = "영희",
+                    txt_AdminUser = "길동이 엄마",
                     txt_AdminRating = "관리자"
                 )
             )
-
+            add(
+                AdminData(
+                    txt_AdminUser = "길동이 동생",
+                    txt_AdminRating = "관리자"
+                )
+            )
+            add(
+                AdminData(
+                    txt_AdminUser = "길동이 절친",
+                    txt_AdminRating = "관리자"
+                )
+            )
         }
         adminAdapter.datas = datas
         adminAdapter.notifyDataSetChanged()
