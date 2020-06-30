@@ -36,21 +36,21 @@ class HostActivity : AppCompatActivity() {
             )
             add(
                 HostData(
-                    txt_HostName = "지현1",
+                    txt_HostName = "철수",
                     txt_MAC = "12:34:56:78:90:aa",
                     txt_IP = "192.168.0.2"
                 )
             )
             add(
                 HostData(
-                    txt_HostName = "지현2",
+                    txt_HostName = "영희",
                     txt_MAC = "12:34:56:78:90:aa",
                     txt_IP = "192.168.0.2"
                 )
             )
             add(
                 HostData(
-                    txt_HostName = "지현3",
+                    txt_HostName = "앵두",
                     txt_MAC = "12:34:56:78:90:aa",
                     txt_IP = "192.168.0.2"
                 )

@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.awsome.activity_admin.AdminActivity
 import com.example.awsome.activity_host.HostActivity
+import kotlinx.android.synthetic.main.activity_information.*
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {

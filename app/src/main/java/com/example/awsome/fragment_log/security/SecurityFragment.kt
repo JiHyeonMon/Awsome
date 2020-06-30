@@ -46,7 +46,7 @@ class SecurityFragment : Fragment() {
                 SecurityData(
                     txt_SecurityDate = "2020/03/11",
                     txt_SecurityTime = "11:23:14",
-                    txt_SecurityContent = "ARP Spoofing"
+                    txt_SecurityContent = "해외 ip 접근 탐지"
                 )
             )
         }

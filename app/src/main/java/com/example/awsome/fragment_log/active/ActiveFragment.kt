@@ -38,15 +38,23 @@ class ActiveFragment : Fragment() {
                 ActiveData(
                     txt_ActiveDate = "2020/11/11",
                     txt_ActiveTime = "12:12:12",
-                    txt_ActiveContent = "ARP 스푸핑 탐지"
+                    txt_ActiveContent = "길동님이 ARP 스푸핑 기능을 켰습니다."
+                )
+            )
+            add(
+                ActiveData(
+                    txt_ActiveDate = "2020/11/11",
+                    txt_ActiveTime = "12:12:12",
+                    txt_ActiveContent = "길동님이 ARP 스푸핑 기능을 껐습니다."
                 )
             )
             add(
                 ActiveData(
                     txt_ActiveDate = "2020/03/11",
                     txt_ActiveTime = "11:23:14",
-                    txt_ActiveContent = "ARP Spoofing"
+                    txt_ActiveContent = "영희님이 해외 ip 차단 기능을 켰습니다."
                 )
+
             )
         }
         activeAdapter.datas = datas
