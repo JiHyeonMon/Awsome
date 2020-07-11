@@ -43,6 +43,12 @@ class SecurityActivity : AppCompatActivity() {
             )
             add(
                 SecurityData(
+                    txt_ListName = "ARP Spoofing 탐지",
+                    txt_ListInfo = "전송하는 데이터 탈취 및 네트워크 문제 발생 탐지 기능"
+                )
+            )
+            add(
+                SecurityData(
                     txt_ListName = "SYN Flooding 탐지",
                     txt_ListInfo = "네트워크 문제 발생 탐지하여 정상적 접근을 도와주는 기능"
                 )
@@ -74,6 +80,8 @@ class SecurityActivity : AppCompatActivity() {
                     txt_ListName = "해외 IP 접속 차단",
                     txt_ListInfo = "해외에서 접속을 시도하는 IP를 탐지하여 불필요한 접근 통제 기능"
                 )
+
+
 
             )
         }
