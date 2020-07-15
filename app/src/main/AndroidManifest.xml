@@ -24,6 +24,9 @@
         <activity android:name=".ResetActivity" />
         <activity android:name=".LogActivity" />
         <activity android:name=".ReviseActivity" />
+        <activity android:name=".SignActivity" />
+        <activity android:name=".CreateActivity" />
+        <activity android:name=".AuthnActivity" />
         <activity android:name=".activity_admin.AdminActivity" />
         <activity android:name=".SecurityActivity" />
         <activity android:name=".MainActivity"/>
